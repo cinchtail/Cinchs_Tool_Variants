@@ -1,0 +1,14 @@
+{
+  "item.cinchstoolvariants.blackstone_sword": "Blackstone Sword",
+  "item.cinchstoolvariants.blackstone_pickaxe": "Blackstone Pickaxe",
+  "item.cinchstoolvariants.blackstone_axe": "Blackstone Axe",
+  "item.cinchstoolvariants.blackstone_shovel": "Blackstone Shovel",
+  "item.cinchstoolvariants.blackstone_hoe": "Blackstone Hoe",
+  "item.cinchstoolvariants.deepslate_sword": "Deepslate Sword",
+  "item.cinchstoolvariants.deepslate_pickaxe": "Deepslate Pickaxe",
+  "item.cinchstoolvariants.deepslate_axe": "Deepslate Axe",
+  "item.cinchstoolvariants.deepslate_shovel": "Deepslate Shovel",
+  "item.cinchstoolvariants.deepslate_hoe": "Deepslate Hoe",
+
+  "itemGroup.cinchstoolvariants.cinchstoolvariants_tab": "Cinch's Tool Variants Tab"
+}
