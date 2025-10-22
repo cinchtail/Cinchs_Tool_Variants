@@ -1,0 +1,14 @@
+{
+  "item.cinchstoolvariants.blackstone_sword": "黑石剑",
+  "item.cinchstoolvariants.blackstone_pickaxe": "黑石镐",
+  "item.cinchstoolvariants.blackstone_axe": "黑石斧",
+  "item.cinchstoolvariants.blackstone_shovel": "黑石锹",
+  "item.cinchstoolvariants.blackstone_hoe": "黑石锄",
+  "item.cinchstoolvariants.deepslate_sword": "深板岩剑",
+  "item.cinchstoolvariants.deepslate_pickaxe": "深板岩镐",
+  "item.cinchstoolvariants.deepslate_axe": "深板岩斧",
+  "item.cinchstoolvariants.deepslate_shovel": "深板岩锹",
+  "item.cinchstoolvariants.deepslate_hoe": "深板岩锄",
+
+  "itemGroup.cinchstoolvariants_tab": "Cinch's Tool Variants Tab"
+}
