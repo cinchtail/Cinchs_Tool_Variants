@@ -20,10 +20,9 @@ public class CinchsToolVariants {
 
     public CinchsToolVariants(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
-        ModItems.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
-
+        ModItems.register(modEventBus);
     }
     private void commonSetup(final FMLCommonSetupEvent event) {
     }
