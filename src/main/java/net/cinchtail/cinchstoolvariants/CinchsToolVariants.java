@@ -5,9 +5,13 @@ import net.cinchtail.cinchstoolvariants.item.ModItems;
 import net.minecraft.core.NonNullList;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.jetbrains.annotations.NotNull;
@@ -18,13 +22,24 @@ public class CinchsToolVariants {
     public static final String MOD_ID = "cinchstoolvariants";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public CinchsToolVariants(FMLJavaModLoadingContext context) {
-        IEventBus modEventBus = context.getModEventBus();
+    public CinchsToolVariants() {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModItems.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
-        ModItems.register(modEventBus);
+
     }
     private void commonSetup(final FMLCommonSetupEvent event) {
+    }
+
+    @SubscribeEvent
+    public void onServerStarting(ServerStartingEvent event) {
+    }
+    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    public static class ClientModEvents {
+        @SubscribeEvent
+        public static void onClientSetup(FMLClientSetupEvent event) {
+        }
     }
     public static int index = 0;
     public static final CreativeModeTab CINCHSTOOLVARIANTS_TAB = new CreativeModeTab("cinchstoolvariants_tab") {
