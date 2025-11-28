@@ -19,12 +19,12 @@ public class CinchsToolVariants {
     public static final String MOD_ID = "cinchstoolvariants";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public CinchsToolVariants(FMLJavaModLoadingContext context) {
-        IEventBus modEventBus = context.getModEventBus();
-        modEventBus.addListener(this::commonSetup);
-        MinecraftForge.EVENT_BUS.register(this);
+    public CinchsToolVariants() {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
+        modEventBus.addListener(this::commonSetup);
+        MinecraftForge.EVENT_BUS.register(this);
     }
     private void commonSetup(final FMLCommonSetupEvent event) {
     }
