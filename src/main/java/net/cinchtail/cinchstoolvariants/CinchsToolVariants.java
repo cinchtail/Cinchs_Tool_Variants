@@ -2,10 +2,10 @@ package net.cinchtail.cinchstoolvariants;
 
 import net.cinchtail.cinchstoolvariants.item.ModCreativeModeTabs;
 import net.cinchtail.cinchstoolvariants.item.ModItems;
-import org.jetbrains.annotations.NotNull;
-import org.slf4j.Logger;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
+import org.jetbrains.annotations.NotNull;
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @Mod(CinchsToolVariants.MOD_ID)
