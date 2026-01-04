@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "cinchstoolvariants",
+	"version": "${version}",
+	"name": "Cinch's Tool Variants",
+	"description": "A mod that adds new deepslate and blackstone tools.",
+	"authors": [
+		"Cinchtail"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/cinchs-tool-variants",
+		"sources": "https://github.com/cinchtail/Cinchs_Tool_Variants/tree/Fabric-1.21.1"
+	},
+	"license": "MIT",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.cinchtail.cinchstoolvariants.CinchsToolVariants"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
