@@ -12,6 +12,7 @@
 		"sources": "https://github.com/cinchtail/Cinchs_Tool_Variants/tree/Fabric-1.20-1.20.2"
 	},
 	"license": "MIT",
+	"icon": "icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

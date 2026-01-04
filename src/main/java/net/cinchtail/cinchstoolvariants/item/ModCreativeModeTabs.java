@@ -9,9 +9,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-public class ModItemGroups {
+public class ModCreativeModeTabs {
     public static final ItemGroup CINCHSTOOLVARIANTS_TAB = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(CinchsToolVariants.MOD_ID, "cinchstoolvariants"),
+            new Identifier(CinchsToolVariants.MOD_ID, "cinchstoolvariants_tab"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.cinchstoolvariants"))
                     .icon(() -> new ItemStack(ModItems.DEEPSLATE_PICKAXE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.DEEPSLATE_SWORD);
