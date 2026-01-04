@@ -8,5 +8,7 @@
   "item.cinchstoolvariants.deepslate_pickaxe": "Deepslate Pickaxe",
   "item.cinchstoolvariants.deepslate_axe": "Deepslate Axe",
   "item.cinchstoolvariants.deepslate_shovel": "Deepslate Shovel",
-  "item.cinchstoolvariants.deepslate_hoe": "Deepslate Hoe"
+  "item.cinchstoolvariants.deepslate_hoe": "Deepslate Hoe",
+
+  "itemgroup.cinchstoolvariants": "Cinch's Tool Variants"
 }

@@ -1,6 +1,6 @@
 package net.cinchtail.cinchstoolvariants;
 
-import net.cinchtail.cinchstoolvariants.item.ModItemGroups;
+import net.cinchtail.cinchstoolvariants.item.ModCreativeModeTabs;
 import net.cinchtail.cinchstoolvariants.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,7 +13,7 @@ public class CinchsToolVariants implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItemGroups.registerItemGroups();
+		ModCreativeModeTabs.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }
