@@ -1,6 +1,6 @@
-package net.cinchtail.cinchstoolvariants.util;
+package net.cinchtail.util;
 
-import net.cinchtail.cinchstoolvariants.CinchsToolVariants;
+import net.cinchtail.CinchsToolVariants;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;

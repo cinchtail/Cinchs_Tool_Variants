@@ -1,6 +1,6 @@
-package net.cinchtail.cinchstoolvariants.item;
+package net.cinchtail.item;
 
-import net.cinchtail.cinchstoolvariants.CinchsToolVariants;
+import net.cinchtail.CinchsToolVariants;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.Item;

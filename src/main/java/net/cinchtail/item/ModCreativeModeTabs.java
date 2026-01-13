@@ -1,6 +1,6 @@
-package net.cinchtail.cinchstoolvariants.item;
+package net.cinchtail.item;
 
-import net.cinchtail.cinchstoolvariants.CinchsToolVariants;
+import net.cinchtail.CinchsToolVariants;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

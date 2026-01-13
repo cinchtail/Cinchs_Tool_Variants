@@ -1,6 +1,6 @@
-package net.cinchtail.cinchstoolvariants.item;
+package net.cinchtail.item;
 
-import net.cinchtail.cinchstoolvariants.util.ModTags;
+import net.cinchtail.util.ModTags;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.ToolMaterial;
 
